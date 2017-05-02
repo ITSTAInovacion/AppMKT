@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Appmkt</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ingresar</string>
+    <string name="title_activity_login">Ingrese</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña (optional)</string>
+    <string name="action_sign_in">Ingresar o registrarse</string>
+    <string name="action_sign_in_short">Ingrese</string>
+    <string name="error_invalid_email">Esta dirección de Email es invalida</string>
+    <string name="error_invalid_password">Esta contraseña es demasiado corta</string>
+    <string name="error_incorrect_password">Esta contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

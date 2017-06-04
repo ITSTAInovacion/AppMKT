@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/common_google_signin_btn_icon_dark"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/nav_misionVision"
+        android:title="Mision Vision" />
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
@@ -8,8 +16,8 @@
             android:title="Categorias" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Ajustes" />
+            android:icon="@drawable/ic_menu_send"
+            android:title="Google maps" />
     </group>
 
     <item android:title="Comunicación">

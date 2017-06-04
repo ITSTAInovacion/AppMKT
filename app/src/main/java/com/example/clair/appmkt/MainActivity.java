@@ -42,6 +42,12 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        Fracment_home fracmentHome = new Fracment_home();
+
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.contenedor, fracmentHome)
+                .commit();
     }
 
     @Override
@@ -84,12 +90,17 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
         FragmentManager fragmentManager = getSupportFragmentManager();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_home) {
+            fragmentManager.beginTransaction().replace(R.id.contenedor, new Fracment_home()).commit();
+        } else if (id == R.id.nav_misionVision){
+            fragmentManager.beginTransaction().replace(R.id.contenedor, new MisionVisionFragment()).commit();
+        } else if (id == R.id.nav_camera) {
             fragmentManager.beginTransaction().replace(R.id.contenedor,new Fragment01()).commit();
         } else if (id == R.id.nav_manage) {
             fragmentManager.beginTransaction().replace(R.id.contenedor,new Fragment02()).commit();
         } else if (id == R.id.nav_share) {
-
+            Intent mapa = new Intent(this, MapsActivity.class);
+            startActivity(mapa);
         } else if (id == R.id.nav_send) {
 
         }

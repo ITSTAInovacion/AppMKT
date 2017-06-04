@@ -22,4 +22,28 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Esto es para la parte del home -->
+    <string name="textoHome">MKTLocation es una aplicación a la cual puedes acceder de una manera muy sencilla y puedes localizar rapidamente empresas de acuerdo a lo que estés buscando como hospitales, hoteles, ferreterias, etc. y de acuerdo a tu posición, te muestra las empresas más cercanas a ti.</string>
+
+    <!-- Esto es para la parte de mision y vision -->
+    <string name="mision">Mision</string>
+    <string name="misionFull">En este apartado se va a incluir la mision completa del programa en android.</string>
+    <string name="vision">Vision</string>
+    <string name="visionFull">En este apartado se va a incluir la vision completa del programa en android.</string>
+
+    <!-- Para la parte de la lista -->
+    <string name="ser_hotel">Hoteles</string>
+    <string name="ser_hotel_desc">Se muestran los hoteles cercanos a tu hubicación para que puedas tomar una mejor elección.</string>
+
+    <string name="ser_escuela">Escuelas</string>
+    <string name="ser_escuela_desc">Se muestran las escuelas cercanas a tu hubicación para que puedas tomar una mejor elección.</string>
+
+    <string name="ser_ferreteria">Ferreteria</string>
+    <string name="ser_ferreteria_desc">Se muestran las ferreterias cercanas a tu hubicación para que puedas tomar una mejor elección.</string>
+
+    <string name="ser_hospital">Hospital</string>
+    <string name="ser_hospital_desc">Se muestran los hospitales cercanos a tu hubicación para que puedas tomar una mejor elección.</string>
+    
 </resources>

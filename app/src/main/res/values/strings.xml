@@ -29,9 +29,9 @@
 
     <!-- Esto es para la parte de mision y vision -->
     <string name="mision">Mision</string>
-    <string name="misionFull">En este apartado se va a incluir la mision completa del programa en android.</string>
+    <string name="misionFull">Somos una empresa dedicada a la busqueda y localización de empresas y servicios en la región, abarcando todos los sectores económicos, sociales, culturales y de servicios, generando oportunidades de mercadotecnia.</string>
     <string name="vision">Vision</string>
-    <string name="visionFull">En este apartado se va a incluir la vision completa del programa en android.</string>
+    <string name="visionFull">Aspiramos ser una empresa de busqueda y localización, preferida por los usuarios, así también expandirnos paulatinamente abarcando todas las entidades del país, manteniendo una mejora contínua.</string>
 
     <!-- Para la parte de la lista -->
     <string name="ser_hotel">Hoteles</string>
@@ -45,5 +45,14 @@
 
     <string name="ser_hospital">Hospital</string>
     <string name="ser_hospital_desc">Se muestran los hospitales cercanos a tu hubicación para que puedas tomar una mejor elección.</string>
-    
+
+
+    <!-- Para la parte de "About" -->
+    <string name="programador">\n\nProgramadores:</string>
+    <string name="programadorFull">Erick Clair\nEmmanuel Hernández</string>
+    <string name="project">Nombre del proyecto:</string>
+    <string name="projectFull">MKTLocation</string>
+    <string name="instituto">Instituto Tecnológico Superior de Tantoyuca</string>
+    <string name="source">Código del proyecto:</string>
+    <string name="sourceFull">https://github.com/ITSTAInovacion/AppMKT</string>
 </resources>

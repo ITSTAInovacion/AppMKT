@@ -2,19 +2,19 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.clair.appmkt.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <RelativeLayout
+    <FrameLayout
         android:id="@+id/contenedor"
-        android:layout_width="387dp"
-        android:layout_height="609dp"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="-23dp">
+        android:layout_width="515dp"
+        android:layout_height="579dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
 
-    </RelativeLayout>
-
+    </FrameLayout>
 </android.support.constraint.ConstraintLayout>

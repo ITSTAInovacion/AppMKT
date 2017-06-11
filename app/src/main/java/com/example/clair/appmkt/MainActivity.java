@@ -95,14 +95,12 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_misionVision){
             fragmentManager.beginTransaction().replace(R.id.contenedor, new MisionVisionFragment()).commit();
         } else if (id == R.id.nav_camera) {
-            fragmentManager.beginTransaction().replace(R.id.contenedor,new Fragment01()).commit();
+            fragmentManager.beginTransaction().replace(R.id.contenedor,new FragmentCategorias()).commit();
         } else if (id == R.id.nav_manage) {
-            fragmentManager.beginTransaction().replace(R.id.contenedor,new Fragment02()).commit();
-        } else if (id == R.id.nav_share) {
             Intent mapa = new Intent(this, MapsActivity.class);
             startActivity(mapa);
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.nav_about) {
+            fragmentManager.beginTransaction().replace(R.id.contenedor,new Fragment02()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

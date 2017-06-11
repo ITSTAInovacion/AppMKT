@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.
+import com.bumptech.glide.Glide;
 import com.example.clair.appmkt.Modelo.Categorias;
 import com.example.clair.appmkt.R;
 
@@ -22,6 +22,23 @@ public class CategoriasAdapter extends RecyclerView.Adapter<CategoriasAdapter.My
 
     private Context mContext;
     private List<Categorias> albumList;
+
+    public class MyViewHolder extends RecyclerView.ViewHolder {
+        public TextView title, description;
+        public ImageView thumbnail;
+
+        public MyViewHolder(View view){
+            super(view);
+            title = (TextView) view.findViewById(R.id.title);
+            description = (TextView) view.findViewById(R.id.description);
+            thumbnail = (ImageView) view.findViewById(R.id.thumbnail);
+        }
+    }
+
+    public CategoriasAdapter(Context mContext, List<Categorias> albumList){
+        this.mContext = mContext;
+        this.albumList = albumList;
+    }
 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -41,26 +58,5 @@ public class CategoriasAdapter extends RecyclerView.Adapter<CategoriasAdapter.My
     }
 
     @Override
-    public int getItemCount() {
-        return 0;
-    }
-
-    public class MyViewHolder extends RecyclerView.ViewHolder {
-        public TextView title, description;
-        public ImageView thumbnail;
-
-        public MyViewHolder(View view){
-            super(view);
-            title = (TextView) view.findViewById(R.id.title);
-            description = (TextView) view.findViewById(R.id.description);
-            thumbnail = (ImageView) view.findViewById(R.id.thumbnail);
-        }
-    }
-
-    public CategoriasAdapter(Context mContext, List<Categorias> albumList){
-        this.mContext = mContext;
-        this.albumList = albumList;
-    }
-
-
+    public int getItemCount() { return albumList.size(); }
 }
